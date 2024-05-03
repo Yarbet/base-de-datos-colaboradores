@@ -79,7 +79,7 @@ function App() {
 
 	return (
 		<>
-			<h1>APP.JSX</h1>
+			<h1>Agregar un colaborador</h1>
 
 			<RegisterForm
 				onSubmit={handleSubmit}

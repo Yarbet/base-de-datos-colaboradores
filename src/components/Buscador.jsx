@@ -8,11 +8,11 @@ export const Search = ({ onChange }) => {
 				className="mb-3"
 				controlId="formBasicEmail"
 			>
-				<Form.Label>Email address</Form.Label>
+				<Form.Label></Form.Label>
 				<Form.Control
 					onChange={onChange}
 					type="search"
-					placeholder="Search..."
+					placeholder="Busca un colaborador"
 				/>
 			</Form.Group>
 		</Form>

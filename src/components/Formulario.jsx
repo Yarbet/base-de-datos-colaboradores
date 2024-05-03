@@ -8,12 +8,12 @@ export const RegisterForm = ({ onSubmit, onChange }) => {
 				className="mb-3"
 				controlId="formBasicEmail"
 			>
-				<Form.Label>Nombre</Form.Label>
+				<Form.Label></Form.Label>
 				<Form.Control
 					onChange={onChange}
 					name="nombre"
 					type="text"
-					placeholder="Ingresa un nombre"
+					placeholder="Ingrese el nombre"
 				/>
 			</Form.Group>
 
@@ -21,12 +21,12 @@ export const RegisterForm = ({ onSubmit, onChange }) => {
 				className="mb-3"
 				controlId="formBasicEmail"
 			>
-				<Form.Label>Email address</Form.Label>
+				<Form.Label></Form.Label>
 				<Form.Control
 					onChange={onChange}
 					name="correo"
 					type="email"
-					placeholder="Enter email"
+					placeholder="Ingrese un email"
 				/>
 			</Form.Group>
 
@@ -34,14 +34,14 @@ export const RegisterForm = ({ onSubmit, onChange }) => {
 				className="mb-3"
 				controlId="formBasicEmail"
 			>
-				<Form.Label>Edad</Form.Label>
+				<Form.Label></Form.Label>
 				<Form.Control
 					onChange={onChange}
 					name="edad"
 					type="number"
 					min={1}
 					max={100}
-					placeholder="Ingresa una edad"
+					placeholder="Ingrese la edad del colaborador"
 				/>
 			</Form.Group>
 
@@ -49,12 +49,12 @@ export const RegisterForm = ({ onSubmit, onChange }) => {
 				className="mb-3"
 				controlId="formBasicEmail"
 			>
-				<Form.Label>Cargo</Form.Label>
+				<Form.Label></Form.Label>
 				<Form.Control
 					onChange={onChange}
 					name="cargo"
 					type="text"
-					placeholder="Ingresa un cargo"
+					placeholder="Ingrese el cargo"
 				/>
 			</Form.Group>
 
@@ -62,21 +62,18 @@ export const RegisterForm = ({ onSubmit, onChange }) => {
 				className="mb-3"
 				controlId="formBasicEmail"
 			>
-				<Form.Label>Teléfono</Form.Label>
+				<Form.Label></Form.Label>
 				<Form.Control
 					onChange={onChange}
 					name="telefono"
 					type="tel"
-					placeholder="Ingresa un tel"
+					placeholder="Ingrese numero"
 				/>
 			</Form.Group>
 
 			<Button
 				variant="primary"
-				type="submit"
-			>
-				Submit
-			</Button>
+				type="submit">Agregar colaborador</Button>
 		</Form>
 	);
 };
